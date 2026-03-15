@@ -31,35 +31,11 @@ export default function Nav({ variant = "light" }: NavProps) {
     >
       <span
         className="text-[22px] font-bold tracking-tight"
-        style={{ color: isDark ? "#fff" : "#0a1628" }}
+        style={{ color: isDark ? "#fff" : "#2563eb" }}
       >
         Bevrly
       </span>
       <div className="flex items-center gap-8">
-        <div className="hidden md:flex items-center gap-6">
-          {["Product", "Pricing", "About"].map((item) => (
-            <a
-              key={item}
-              href="#"
-              className="text-sm font-medium transition-colors duration-200"
-              style={{
-                color: isDark ? "rgba(255,255,255,0.5)" : "#6b7280",
-              }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.color = isDark
-                  ? "rgba(255,255,255,0.9)"
-                  : "#0a1628")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.color = isDark
-                  ? "rgba(255,255,255,0.5)"
-                  : "#6b7280")
-              }
-            >
-              {item}
-            </a>
-          ))}
-        </div>
         <button
           className="text-sm font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 hover:-translate-y-0.5"
           style={{

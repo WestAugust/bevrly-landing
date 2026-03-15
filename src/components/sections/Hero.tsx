@@ -43,34 +43,15 @@ export default function Hero({
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         className="relative z-10 max-w-[900px]"
       >
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase mb-8"
-          style={{
-            background: isDark
-              ? "rgba(74, 124, 255, 0.12)"
-              : "rgba(74, 124, 255, 0.06)",
-            color: "#4a7cff",
-            border: isDark
-              ? "1px solid rgba(74, 124, 255, 0.2)"
-              : "1px solid rgba(74, 124, 255, 0.12)",
-          }}
-        >
-          <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-          Now in beta
-        </motion.div>
-
         <h1
           className="text-[clamp(42px,7vw,82px)] font-bold leading-[1.05] tracking-[-2.5px] mb-7"
-          style={{ color: isDark ? "#fff" : "#0a1628" }}
+          style={{ color: isDark ? "#fff" : "#2563eb" }}
         >
           {headline}
         </h1>
 
         <p
-          className="text-[clamp(17px,2vw,22px)] leading-relaxed max-w-[560px] mx-auto mb-10"
+          className="text-[clamp(21px,3.5vw,41px)] font-medium leading-[1.2] max-w-[560px] mx-auto mb-10 tracking-[-1px]"
           style={{
             color: isDark ? "rgba(255,255,255,0.5)" : "#6b7280",
           }}

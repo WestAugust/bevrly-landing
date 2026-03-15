@@ -10,16 +10,11 @@ const PILLARS = [
   },
   {
     num: "02",
-    title: "Know your\nnumbers.",
-    desc: "Real-time clarity on your beverage program — what's moving, what's sitting, where the money goes. No more spreadsheets. No more guessing.",
+    title: "Know your numbers\n(not just COGS).",
+    desc: "Real-time financial insight into your beverage program — margins, sales velocity, waste, and profitability by product. Understand what drives revenue, what ties up cash, and where to optimize. No spreadsheets. No guesswork.",
   },
-  {
+{
     num: "03",
-    title: "Order\nsmarter.",
-    desc: "Automated par levels, one-click ordering, vendor price tracking. Stop overspending and start running a tighter ship.",
-  },
-  {
-    num: "04",
     title: "Scale with\nconfidence.",
     desc: "Whether you're one location or twenty, Bevrly grows with you. Consistent processes, centralized data, total visibility.",
   },
