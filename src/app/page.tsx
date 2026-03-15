@@ -4,6 +4,7 @@ import LogoBar from "@/components/sections/LogoBar";
 import ValuePillars from "@/components/sections/ValuePillars";
 import Features from "@/components/sections/Features";
 import FAQ from "@/components/sections/FAQ";
+import BinWiseTeaser from "@/components/sections/BinWiseTeaser";
 import ClosingCTA from "@/components/sections/ClosingCTA";
 import Footer from "@/components/sections/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <ValuePillars variant="light" columns={2} />
       <LogoBar variant="light" />
       <Features variant="light" layout="grid" />
+      <BinWiseTeaser />
       <FAQ variant="light" />
       <ClosingCTA variant="navy" />
       <Footer variant="dark" />
