@@ -41,7 +41,7 @@ export default function Hero({
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="relative z-10 max-w-[900px]"
+        className="relative z-10 max-w-[1100px]"
       >
         <h1
           className="text-[clamp(42px,7vw,82px)] font-bold leading-[1.05] tracking-[-2.5px] mb-7"
@@ -51,7 +51,7 @@ export default function Hero({
         </h1>
 
         <p
-          className="text-[clamp(21px,3.5vw,41px)] font-medium leading-[1.2] max-w-[560px] mx-auto mb-10 tracking-[-1px]"
+          className="text-[clamp(21px,3.5vw,41px)] font-medium leading-[1.2] mx-auto mb-10 tracking-[-1px] whitespace-nowrap"
           style={{
             color: isDark ? "rgba(255,255,255,0.5)" : "#6b7280",
           }}
