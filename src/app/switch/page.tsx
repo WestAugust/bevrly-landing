@@ -30,7 +30,7 @@ export default function SwitchPage() {
       <Nav variant="light" />
 
       {/* Hero */}
-      <section className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 md:px-12 pt-32 pb-16 relative overflow-hidden">
+      <section className="flex flex-col items-center justify-center text-center px-6 md:px-12 pt-32 pb-8 relative overflow-hidden">
         <div
           className="absolute top-[-30%] left-1/2 -translate-x-1/2 w-[800px] h-[800px] pointer-events-none"
           style={{
@@ -190,39 +190,6 @@ export default function SwitchPage() {
             </div>
           </AnimatedSection>
 
-          {/* Migration callout */}
-          <AnimatedSection delay={0.2}>
-            <div className="mt-8 rounded-2xl p-8 md:p-10 text-center bg-[#f0f5ff] border border-[#bfdbfe]">
-              <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-5">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#2563eb"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Instant migration to Bevrly
-              </h3>
-              <p className="text-gray-500 max-w-[420px] mx-auto mb-6">
-                Keep all of your items, barcodes, and recipes. We handle the
-                data transfer — you just log in and go.
-              </p>
-              <motion.button
-                whileHover={{ scale: 1.02, y: -2 }}
-                whileTap={{ scale: 0.98 }}
-                className="text-base font-semibold px-10 py-4 rounded-xl bg-[#0a1628] text-white"
-              >
-                Start Your Migration
-              </motion.button>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 

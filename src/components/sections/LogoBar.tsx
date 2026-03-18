@@ -4,21 +4,21 @@ import Image from "next/image";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const LOGOS = [
-  { src: "/logos/claud_nyc.png", alt: "Claud NYC" },
-  { src: "/logos/cote_miami.png", alt: "Cote Miami" },
-  { src: "/logos/cucina_alba_nyc.png", alt: "Cucina Alba NYC" },
   { src: "/logos/four_horsemen_brooklyn.png", alt: "Four Horsemen Brooklyn" },
-  { src: "/logos/le_chene_nyc.png", alt: "Le Chêne NYC" },
-  { src: "/logos/market_table_nyc.png", alt: "Market Table NYC" },
   { src: "/logos/penny_nyc.png", alt: "Penny NYC" },
-  { src: "/logos/plus_de_vin_brooklyn.png", alt: "Plus de Vin Brooklyn" },
-  { src: "/logos/roya_austin.png", alt: "Roya Austin" },
-  { src: "/logos/rude_mouth_brooklyn.png", alt: "Rude Mouth Brooklyn" },
-  { src: "/logos/santi_nyc.png", alt: "Santi NYC" },
+  { src: "/logos/cote_miami.png", alt: "Cote Miami" },
   { src: "/logos/stars_wine_bar_nyc.png", alt: "Stars Wine Bar NYC" },
-  { src: "/logos/the_mary_lane_nyc.png", alt: "The Mary Lane NYC" },
-  { src: "/logos/wayward_fare.png", alt: "Wayward Fare" },
+  { src: "/logos/rude_mouth_brooklyn.png", alt: "Rude Mouth Brooklyn" },
+  { src: "/logos/claud_nyc.png", alt: "Claud NYC" },
   { src: "/logos/wrigley_mansion_az.png", alt: "Wrigley Mansion AZ" },
+  { src: "/logos/market_table_nyc.png", alt: "Market Table NYC" },
+  { src: "/logos/plus_de_vin_brooklyn.png", alt: "Plus de Vin Brooklyn" },
+  { src: "/logos/santi_nyc.png", alt: "Santi NYC" },
+  { src: "/logos/le_chene_nyc.png", alt: "Le Chêne NYC" },
+  { src: "/logos/the_mary_lane_nyc.png", alt: "The Mary Lane NYC" },
+  { src: "/logos/roya_austin.png", alt: "Roya Austin" },
+  { src: "/logos/cucina_alba_nyc.png", alt: "Cucina Alba NYC" },
+  { src: "/logos/wayward_fare.png", alt: "Wayward Fare" },
 ];
 
 interface LogoBarProps {
@@ -43,7 +43,7 @@ export default function LogoBar({ variant = "light" }: LogoBarProps) {
           className="text-center text-[13px] font-semibold tracking-[1.5px] uppercase mb-9"
           style={{ color: isDark ? "rgba(255,255,255,0.25)" : "#8b92a0" }}
         >
-          Trusted by the best
+          Trusted by your favorite restaurants, wine bars, and hospitality groups
         </p>
         <div className="relative overflow-hidden">
           <div

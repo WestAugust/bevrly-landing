@@ -5,18 +5,23 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 const PILLARS = [
   {
     num: "01",
-    title: "Get your\ntime back.",
-    desc: "Fewer clicks. Less busywork. More time on the floor with your team and your guests. Bevrly handles the tedious stuff so you can focus on hospitality.",
+    title: "Get your time back.",
+    desc: "Run counts faster, generate purchase orders automatically, and keep your beverage program organized without spreadsheets.",
   },
   {
     num: "02",
     title: "Know your numbers\n(not just COGS).",
-    desc: "Real-time financial insight into your beverage program — margins, sales velocity, waste, and profitability by product. Understand what drives revenue, what ties up cash, and where to optimize. No spreadsheets. No guesswork.",
+    desc: "Track costs, inventory movement, waste, and profitability by bottle, cocktail, and category.",
   },
-{
+  {
     num: "03",
-    title: "Scale with\nconfidence.",
-    desc: "Whether you're one location or twenty, Bevrly grows with you. Consistent processes, centralized data, total visibility.",
+    title: "Make smarter decisions.",
+    desc: "Adjust menus, pricing, and ordering based on real sales trends, product performance, and margin drivers.",
+  },
+  {
+    num: "04",
+    title: "Scale with confidence.",
+    desc: "Run consistent beverage programs across every location and standardize ordering, recipes, and processes.",
   },
 ];
 
@@ -33,7 +38,7 @@ export default function ValuePillars({
 
   return (
     <section
-      className="py-24 md:py-32 px-6 md:px-12"
+      className="py-12 md:py-16 px-6 md:px-12"
       style={{ background: isDark ? "#0d1b2e" : "#fff" }}
     >
       <div

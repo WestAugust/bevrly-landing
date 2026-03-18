@@ -2,7 +2,6 @@ import Nav from "@/components/sections/Nav";
 import Hero from "@/components/sections/Hero";
 import LogoBar from "@/components/sections/LogoBar";
 import ValuePillars from "@/components/sections/ValuePillars";
-import Features from "@/components/sections/Features";
 import FAQ from "@/components/sections/FAQ";
 import BinWiseTeaser from "@/components/sections/BinWiseTeaser";
 import ClosingCTA from "@/components/sections/ClosingCTA";
@@ -14,12 +13,11 @@ export default function Home() {
       <Nav variant="light" />
       <Hero
         variant="light"
-        headline="Smart beverage operations, built for hospitality."
+        headline="Smart beverage operations for hospitality."
         subline="Live insights. Less friction. Real profit."
       />
-      <ValuePillars variant="light" columns={2} />
+      <ValuePillars variant="light" columns={4} />
       <LogoBar variant="light" />
-      <Features variant="light" layout="grid" />
       <BinWiseTeaser />
       <FAQ variant="light" />
       <ClosingCTA variant="navy" />
