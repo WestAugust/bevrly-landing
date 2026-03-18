@@ -5,7 +5,7 @@ import Nav from "@/components/sections/Nav";
 import LogoBar from "@/components/sections/LogoBar";
 import HowItWorks from "@/components/sections/HowItWorks";
 import ProductMockup from "@/components/sections/ProductMockup";
-import Features from "@/components/sections/Features";
+import Features from "@/components/_archive/Features";
 import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
