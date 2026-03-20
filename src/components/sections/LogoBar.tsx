@@ -4,21 +4,21 @@ import Image from "next/image";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const LOGOS = [
-  { src: "/logos/four_horsemen_brooklyn.png", alt: "Four Horsemen Brooklyn" },
+  { src: "/logos/four_horsemen_brooklyn.png", alt: "Four Horsemen Brooklyn", scale: 1.5 },
   { src: "/logos/penny_nyc.png", alt: "Penny NYC" },
   { src: "/logos/cote_miami.png", alt: "Cote Miami" },
   { src: "/logos/stars_wine_bar_nyc.png", alt: "Stars Wine Bar NYC" },
   { src: "/logos/rude_mouth_brooklyn.png", alt: "Rude Mouth Brooklyn" },
   { src: "/logos/claud_nyc.png", alt: "Claud NYC" },
-  { src: "/logos/wrigley_mansion_az.png", alt: "Wrigley Mansion AZ" },
-  { src: "/logos/market_table_nyc.png", alt: "Market Table NYC" },
+  { src: "/logos/wrigley_mansion_az.png", alt: "Wrigley Mansion AZ", scale: 1.5 },
+  { src: "/logos/market_table_nyc.png", alt: "Market Table NYC", scale: 1.5 },
   { src: "/logos/plus_de_vin_brooklyn.png", alt: "Plus de Vin Brooklyn" },
   { src: "/logos/santi_nyc.png", alt: "Santi NYC" },
   { src: "/logos/le_chene_nyc.png", alt: "Le Chêne NYC" },
-  { src: "/logos/the_mary_lane_nyc.png", alt: "The Mary Lane NYC" },
+  { src: "/logos/the_mary_lane_nyc.png", alt: "The Mary Lane NYC", scale: 1.5 },
   { src: "/logos/roya_austin.png", alt: "Roya Austin" },
   { src: "/logos/cucina_alba_nyc.png", alt: "Cucina Alba NYC" },
-  { src: "/logos/wayward_fare.png", alt: "Wayward Fare" },
+  { src: "/logos/wayward_fare.png", alt: "Wayward Fare", scale: 1.5 },
 ];
 
 interface LogoBarProps {
@@ -76,6 +76,7 @@ export default function LogoBar({ variant = "light" }: LogoBarProps) {
                   className="object-contain h-16 w-auto"
                   style={{
                     filter: isDark ? "brightness(0) invert(1)" : "brightness(0)",
+                    transform: logo.scale ? `scale(${logo.scale})` : undefined,
                   }}
                 />
               </div>

@@ -9,7 +9,7 @@ import ProductMockup from "@/components/sections/ProductMockup";
 import Features from "@/components/_archive/Features";
 import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
-import FAQ from "@/components/sections/FAQ";
+import FAQ from "@/components/_archive/FAQ";
 import ClosingCTA from "@/components/sections/ClosingCTA";
 import Footer from "@/components/sections/Footer";
 

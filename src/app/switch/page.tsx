@@ -52,7 +52,7 @@ export default function SwitchPage() {
           </h1>
           <p className="text-[clamp(18px,2.5vw,24px)] text-gray-500 leading-relaxed max-w-[560px] mx-auto mb-4">
             Migrate from BinWise to Bevrly in 20 minutes. Keep everything —
-            items, barcodes, recipes.
+            items, barcodes, recipes. We&apos;ll do the rest.
           </p>
         </motion.div>
       </section>
